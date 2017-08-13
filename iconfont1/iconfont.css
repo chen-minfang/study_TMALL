@@ -1,0 +1,65 @@
+
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1501219607128'); /* IE9*/
+  src: url('iconfont.eot?t=1501219607128#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1501219607128') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1501219607128') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1501219607128#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/*header*/
+.icon-xiai:before { content: "\3449"; font-size: 12px; color: #FF0036; padding-right: 3px }
+
+.icon-31gouwuchexuanzhong:before { content: "\f01d1";  font-size: 12px; color: #FF0036; padding-right: 3px }
+
+.icon-shouji:before { content: "\3448";  font-size: 12px; color: #FF0036; margin-right: 3px }
+
+.icon-diantileimu:before { content: "\3473"; font-size: 12px; color: #FF0036; padding-right: 3px }
+
+/*category*/
+.icon-nvzhuangneiyi:before { content: "\3459"; font-size: 14px; color: #FFF; padding-right: 4px }
+
+.icon-shumashouji:before { content: "\3457"; font-size: 14px; color: #FFF; padding-right: 4px }
+
+.icon-nanzhuang:before { content: "\346c"; font-size: 14px; color: #FFF; padding-right: 4px }
+
+.icon-jiafangjiashi:before { content: "\345e"; font-size: 14px; color: #FFF; padding-right: 4px }
+
+.icon-kouhong:before { content: "\3441"; font-size: 14px; color: #FFF; padding-right: 4px }
+
+.icon-muyingwanju:before { content: "\3456"; font-size: 14px; color: #FFF; padding-right: 4px }
+
+.icon-shipin:before { content: "\3455"; font-size: 14px; color: #FFF; padding-right: 4px }
+
+/*slideBar*/
+
+.icon-wo:before { content: "\f0006"; }
+
+.icon-tianmaochaoshigouwuche:before { content: "\f003f"; color: #FF0036}
+
+.icon-wodezichan:before { content: "\f0191"; }
+
+.icon-pinpai:before { content: "\f003e"; }
+
+.icon-shoucang:before { content: "\f0114"; }
+
+.icon-31shijian:before { content: "\f021d"; }
+
+.icon-chongshuidian:before { content: "\347e"; }
+
+.icon-erweima:before { content: "\f010a"; }
+
+.icon-diantifanhuidingbu:before { content: "\3472"; }
+
+
+
+
+
