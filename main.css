@@ -1,0 +1,990 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*init*/
+html, body, div, ul, li, p, h1, h2, h3, h4, h5, h6, dl, dt, dd, ol, form, input, textarea, th, td, select {
+	margin: 0;
+	padding: 0
+}
+body {
+	font-family: Helvetica,sans-serif;
+	font-size: 12px;
+	color: #999
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight:normal
+}
+ul,ol {
+	list-style: none
+}
+li {
+	list-style-type: none
+}
+img {
+	border: none;
+}
+a {
+	text-decoration: none;
+	color: #999
+}
+table {
+	border-collapse: collapse;
+	table-layout: fixed
+}
+input,textarea {
+	outline: none;
+	border: none
+}
+textarea {
+	resize: none;
+	overflow: auto
+}
+.clearfix {
+	zoom: 1
+}
+
+
+/*header*/
+#header {
+	height: 636px;
+	width:100%
+}
+
+/*hNav*/
+#hNav {
+	height: 26px;
+	background-color: #F2F2F2;
+	border-bottom: 1px solid #E5E5E5;
+	line-height: 26px;
+}
+#hNavIn {
+	width: 1190px;
+	margin: auto;
+	font-size: 0;
+	height: 26px
+}
+#hNavIn a:hover {
+	color: #FF0036
+}
+.hNavL {
+	display: inline-block;
+	height: 26px
+}
+.hNavL a,.hNavL em,.hNavR a{
+	font-style: normal;
+	font-size:12px
+}
+.hNavL a {
+	margin-left:20px
+}
+.hNavR {
+	float: right;
+	height: 26px
+}
+.hNavR li {
+	display: inline-block;
+	height:26px;
+	margin-top: -1px
+}
+.mine a,.favorites a,.support a {
+	border-left: 1px solid #F2F2F2;
+	border-right: 1px solid #F2F2F2;
+	padding: 0 8px 0 10px;
+	display: inline-block;
+	height: 27px;
+	position: relative;
+	z-index: 10
+}
+.mine a:hover,.favorites a:hover,.support a:hover {
+	text-decoration: underline
+}
+.brand,.shoppingCar,.mobile,.taobao,.enterprise {
+	padding: 0 10px
+}
+.siteNav p {
+	border-left: 1px solid #F2F2F2;
+	border-right: 1px solid #F2F2F2;
+	display: inline-block;
+	height: 27px;
+	position: relative;
+	z-index: 10;
+	padding-left: 10px;
+	width: 80px;
+}
+#hNavIn .siteNav p a:hover {
+	color: #999
+}
+.shoppingCar i{
+	font-style:normal
+}
+.hNavR li.separate {
+	width: 1px;
+	height: 15px;
+	background-color: #999;
+	margin: auto 3px;
+	position: relative;
+	top: 3px;
+}
+#hNavIn .hNavR li.siteNav div a:hover {
+	color: #999
+}
+.mine a b,.favorites a b,.support a b,.siteNav a b {
+	width: 0;
+	height: 0;
+	display: inline-block;
+	position: relative;
+	margin-left: 2px;
+	border: 3px solid #F2F2F2;
+	border-top: 3px solid #999;
+	border-bottom: 0;
+	top: -2px
+}
+.shoppingCar a b {
+	color: #666
+}
+.shoppingCar a:hover b {
+	color: #FF0036
+}
+
+/*headerDown*/
+#mineDown, #favDown, #supDown, #NavDown {
+	position: absolute;
+	top: 26px;
+	border: 1px solid #EEE;
+	padding: 8px 3px;
+	display: none;
+	background-color: #FFF;
+	z-index: 9
+}
+#supDown, #NavDown {
+	top: 27px
+}
+.support {
+	position: relative
+}
+#supDown {
+	right: 0px;
+	padding:0
+}
+.siteNav {
+	position: relative
+}
+#NavDown {
+	right: 0px;
+	width: 1195px;
+	padding: 26px 0;
+}
+#mineDown a, #favDown a, #supDown a,#supDown h3 {
+	display: block;
+	color: #666;
+	height: 20px;
+	line-height: 20px;
+	border: 0
+}
+#supDown a {
+	display: inline-block;
+	padding: 0
+}
+#supDown {
+	width:144px
+}
+#supDown h3, #NavDown h3 {
+	font-size: 12px;
+	font-weight:700;
+	padding: 0
+}
+#supDown li {
+	display: block
+}
+#supDown div {
+	border-bottom: 1px dotted #666;
+	margin: 10px;
+}
+#supDown div a:nth-child(even) {
+	padding-right: 26px
+}
+#NavDown div {
+	display: inline-block
+}
+#NavDown > div {
+	display: inline-block;	
+	height: 202px;
+	border-right: 1px solid #EEE;
+	padding-left: 30px;
+	float:left
+}
+#NavDown div h3 {
+	display: inline-block;
+	font-size: 16px;
+	font-family: '\5FAE\8F6F\96C5\9ED1',arial,"\5b8b\4f53";
+	padding-bottom: 10px
+}
+#NavDown a {
+	color: #666
+}
+#NavDown a:hover {
+	text-decoration: underline
+}
+#hot {
+	width: 384px;	
+}
+#hot a:nth-of-type(4n) {
+	padding-right: 0
+}
+#hot h3 {
+	color: #F56E07;	
+}
+#NavDown #hot a:hover {
+	color: #F56E07;
+}
+#market {
+	width: 378px;
+}
+#market a:nth-of-type(4n) {
+	padding-right: 0
+}
+#market h3 {
+	color: #3872D8;
+}
+#NavDown #market a:hover {
+	color: #3872D8;
+}
+#bra {
+	width: 180px;
+}
+#bra a:nth-of-type(2n) {
+	padding-right: 0
+}
+#bra h3 {
+	color: #000;
+}
+#NavDown #bra a:hover {
+	color: #000;
+}
+#help h3 {
+	color: #8A8A8A;
+}
+#NavDown #help a:hover {
+	color: #666;
+}
+#NavDown #help {
+	width: 130px;
+	border-right: 0
+}
+#NavDown div a{
+	display: inline-block;
+	width: 64px;
+	padding-right: 32px;
+}
+
+/*jx*/
+#jx {
+	width: 100%;
+	height: 96px
+}
+#jxInner {
+	width: 1190px;
+	height:100%;
+	margin: 0 auto
+}
+#jxInner img {
+	padding-top: 28px
+}
+#jxRight {
+	float: right;
+	width: 542px;
+	margin-top: 25px;
+}
+#jxRight form {
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	font-size: 0;
+	position: relative
+}
+#jxRight form input {
+	width: 448px;
+	height: 30px;
+	line-height: 30px;
+	border: 3px solid #FF0036;
+	text-indent: 5px;
+	color: #000 !important;
+	float: left;
+	font-weight: 700;
+}
+#jxRight form label{
+	position: absolute;
+	font-size: 12px;
+	line-height: 36px;
+	left: 10px;
+	color: #666;
+	cursor: text
+}
+#jxRight form button {
+	height: 36px;
+	width: 88px;
+	font-size: 16px;
+	color: #FFF;
+	background-color: #FF0036;
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+	float: left;
+	font-family: '\5FAE\8F6F\96C5\9ED1',arial,"\5b8b\4f53";
+}
+#jxRight div {
+	padding-top: 8px;
+}
+#jxRight div a {
+	float: left;
+	padding: 0 12px;
+	border-left: 1px solid #999;
+}
+.tshirt, .aircon, .shoe, .liquid {
+	color: #FF0036
+}
+#jxRight div a.tshirt {
+	border-left: 0;
+	padding-left: 0
+}
+
+/*category*/
+#category {
+	width: 100%;
+	height: 515px
+}
+#caNav {
+	width: 1190px;
+	height: 33px;
+	font-size: 12px;
+	line-height: 33px;
+	margin: 0 auto;
+	font-family: Heiti SC
+}
+#caNav h3 {
+	float: left;
+	width: 272px;
+	height: 100%;
+	font-size: 13px;
+	color: #FFF;
+	background-color: #DD2727;
+	text-align: center;
+	font-weight: bold
+}
+#caNav ul {
+	float: left
+}
+#caNav ul li {
+	float: left;
+	padding: 0 24px
+}
+#caNav ul li a {
+	color: #000;
+	font-weight: bold
+}
+#caContent {
+	width: 100%;
+	height: 480px;
+	background-color: #F5F5F5
+}
+#caContentIn {
+	width: 1190px;
+	height: 100%;
+	margin: 0 auto
+}
+#caLeft {
+	width: 272px;
+	height: 100%;
+	float: left
+}
+#caNavUl {
+	width: 64px;
+	height: 100%;
+	background-color: #2C2C2C;
+	float: left
+}
+#caNavUl li {
+	font-family: Heiti SC;
+	font-size: 14px;
+	color: #FFF;
+	text-align: center;
+	height: 60px;
+	line-height: 60px
+}
+#caLeft div {
+	width: 208px;
+	height: 100%;
+	float:left
+}
+#caLeft div ul {
+	height: 47px;
+	border-bottom: 1px solid #E0E0E0;
+	padding: 6px 14px
+}
+#caLeft div ul li {
+	padding: 6px 8px;
+	float: left;
+	height: 12px
+}
+#caLeft div ul li a {
+	height: 12px;
+	display: inline-block;
+	color: #666;
+	font-family: Heiti SC;
+	font-size: 12px/1.5;
+	float: left
+}
+#caLeft div ul li a:hover {
+	color: #DD2727
+}
+
+#caMiddle {
+	width: 720px;
+	height: 100%;
+	float: left
+}
+#caMiddleTop {
+	width: 100%;
+	height: 296px;
+	float: left
+}
+#topPic {
+	width: 720px;
+	height: 296px;
+	position: relative;
+	float: left;
+	overflow: hidden
+}
+#topPicIn {
+	width: 4320px;
+	height: 100%;
+	position: relative;
+	left: 0
+}
+#topPicIn a img {
+	width: 720px;
+	height: 296px;
+	position: relative;
+	float: left
+}
+#count,#countBottom {
+	position: relative;
+	bottom: 44px;
+	float: left;
+	margin-left: 287px
+}
+#countBottom {
+	margin-left: 316px
+}
+#count li, #countBottom li {
+	width: 20px;
+	height: 20px;
+	color: #FFF;
+	font-size: 8px;
+	font-weight: bold;
+	border-radius: 10px;
+	background-color: #000;
+	margin-left: 5px;
+	margin-right: 5px;
+	float: left;
+	text-align: center;
+	line-height: 20px;
+	cursor: pointer
+}
+#count li.current, #countBottom li.current {
+	background-color: #C40000
+}
+#caMiddleBottom {
+	width: 720px;
+	height: 184px;
+	float: left;
+	position: relative
+}
+#bottomPic {
+	width: 100%;
+	height: 100%;
+	float: left;
+	position: relative;
+	overflow: hidden
+}
+#bottomPicIn {
+	width: 1440px;
+	height: 100%;
+	float: left;
+	position: relative
+}
+#bPicL, #bPicR {
+	width: 720px;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+#bPicL a, #bPicR a {
+	float: left
+}
+#bPicL a img, #bPicR a img {
+	width: 180px;
+	height: 100%;
+	float: left
+}
+#caRight {
+	float: left;
+	height: 100%
+}
+#caRight img{
+	float: left;
+	width: 198px;
+	height: 100%
+}
+
+/*sliderBar*/
+#sliderBar {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 36px;
+	height: 100%;
+	background-color: #000;
+	font-size: 20px;
+	text-align: center
+}
+#sliderBar i {	
+	color: #FFF;
+}
+#sBarTop {
+	position: absolute;
+	top: 0;
+	margin-top: 82px
+}
+#sBarTop a{
+	position: relative;
+	width: 100%;
+	height: 36px;
+	display: inline-block;
+	line-height: 36px;
+	margin: 5px 0
+}
+#sBarTop a:hover, #gouwuche:hover, #sBarBottom a:hover {
+	background-color: #FF0036;
+}
+#gouwuche {
+	position: relative;
+	width: 100%;
+	height: 98px
+}
+#sBarTop #gouwuche a{
+	position: relative;
+	width: 28px;
+	height: 78px;
+	margin: 0 4px;
+	padding: 12px 0 6px 0 ;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666
+}
+#sBarTop #gouwuche:hover a{
+	border-top: 1px solid #FF0036;
+	border-bottom: 1px solid #FF0036
+}
+#sBarTop #gouwuche:hover i:before {
+	color: #FFF
+}
+#gouwuche i {
+	line-height: 22px
+}
+#sBarTop #gouwuche b {
+	font-size: 12px;
+	color: #FFF;
+	font-weight: normal;
+	font-family: tahoma,arial,"\5b8b\4f53";
+	line-height: 16px;
+	width: 14px;
+	display: inline-block
+}
+#sBarBottom {
+	position: absolute;
+	bottom: 0
+}
+#sBarBottom a {
+	display: inline-block;
+	height: 36px;
+	width: 100%;
+	line-height: 36px
+}
+
+/*content*/
+#content {
+	width: 100%;
+	background-color: #F5F5F5;
+	font-family: Heiti SC;
+	float: left;
+	border-bottom: 1px solid #D1D7DC;
+}
+div.cClear {
+	height: 0;
+	clear: both
+}
+#contentIn {
+	width: 1190px;
+	height: 100%;
+	margin: 0 auto
+}
+
+/*hotBrand*/
+#hotBrand {
+	width: 100%;
+	height: 202px;
+	padding-top: 18px;
+}
+#hBHead {
+	float: left;
+	width: 100%;
+	height: 44px
+}
+#hBHeadL {
+	float: left;
+	height: 44px;
+}
+#hBHeadL ul {
+	height: 100%;
+	float: left
+}
+#hBHeadL > a {
+	float: left;
+	padding: 11px 12px 11px 0
+}
+#hBHeadL ul li {
+	float: left;
+	padding: 0 16px 0 16px;
+	line-height: 44px
+}
+#hBHeadL ul li a {
+	color: #666
+}
+#hBHeadL ul li a:hover {
+	border-bottom: 2px solid #000	
+}
+#hBHeadL ul li a.choosed {
+	color: #000;
+	font-weight: 700;
+	border-bottom: 2px solid #000
+}
+#hBHeadR {
+	float: right
+}
+#hBHeadR a {
+	float: left;
+	line-height: 44px
+}
+#hBHeadR a.change {
+	padding-right: 18px;
+	color: #000;
+	font-weight: 700;
+}
+#hBHeadR a.bStorage {
+	color: #000
+}
+#hBContent {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 164px
+}
+#hBContent div {
+	position: absolute;
+	top: 0;
+	float: left;
+	width: 100%;
+	height: 100%
+}
+#fashion, #domestic, #original {
+	display: none
+}
+#hBContent div a {
+	float: left;
+	width: 130px;
+	height: 80px;
+	margin: 0 2px 2px 0;
+	background-color: #FFF;
+	text-align: center
+}
+#hBContent img {
+	width: 90px;
+	height: 45px;
+	padding-top: 15px
+}
+
+#discount {
+	display: inline-block;
+	width: 100%;
+	height: 92px;
+	padding: 22px 0 22px 0
+}
+#discount img {
+	width: 100%;
+	height: 100%
+}
+
+#mailFree ,#select{
+	width: 100%;
+	padding-bottom: 20px;
+	position: relative
+}
+#mFHead ,#sHead{
+	height: 38px;
+	line-height: 38px
+}
+#sHead {
+	margin-bottom: 1px
+}
+#mFHead > a ,#sHead > a{
+	width: 176px;
+	height: 100%;
+	float: left;
+	background-color: #DD2727;
+	color: #FFF;
+	font-size: 20px;
+	text-align: center;
+	margin-right: 18px
+}
+#sHead > a {
+	background-color: #FF5B00
+}
+#sHead > a:hover {
+	cursor: text
+}
+#mFHead div a {
+	display: inline-block;
+	float: left;
+	width: 126px;
+	height: 16px;
+	border-right: 1px solid #999;
+	text-align: center;
+	font-size: 16px;
+	line-height: 16px;
+	margin-top: 11px;
+	color: #000
+}
+#sHead div a {
+	display: inline-block;
+	float: left;
+	height: 18px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 18px;
+	margin: 11px 28px 0 28px;
+	color: #000;
+	padding: 0 2px 0 2px
+}
+#mFHead div a:hover {
+	color: #DD2727;
+}
+#sHead div a:hover, #sHead div a.sChoosed {
+	color: #FF5B00;
+	border-bottom: 2px solid #FF2B00
+}
+#mFHead div a.mChoosed {
+	color: #DD2727;
+	font-weight: bold
+}
+#mFContent, #sContent {
+	position: relative;
+	width: 100%
+}
+#mFContent div, #sContent div {
+	position: relative;
+	top: 0
+}
+#mFContent div a, #sContent div a, #rContent a {
+	display: inline-block;
+	position: relative;
+	float: left;
+	width: 230px;
+	height: 314px;
+	padding-bottom: 10px;
+	padding-right: 10px
+}
+#mFContent div a:nth-child(5n), #sContent div a:nth-child(5n), #rContent a:nth-child(5n) {
+	padding-right: 0
+}
+#mFContent div a img, #sContent div a img, #rContent a img {
+	width: 100%;
+	height: 230px
+}
+#mFContent div a p, #sContent div a p, #rContent a p {
+	display: inline-block;
+	margin: 12px 12px 0 12px;
+	font-size: 12px;
+	line-height: 18px;
+	color: #000
+}
+#mFContent div a i.price, #sContent div a i.price, #rContent a i.price {
+	font-family: 'Heiti SC';
+	font-size: 21px;
+	font-style: normal;
+	line-height: 36px;
+	color: #DD2727;
+	padding-left: 12px;
+	float: left
+}
+#mFContent div a i.price b, #sContent div a i.price b, #rContent a i.price b {
+	font-size: 16px
+}
+#mFContent div a i.buy, #sContent div a i.buy {
+	font-family: 'Heiti SC';
+	font-size: 12px;
+	font-style: normal;
+	padding-right: 12px;
+	line-height: 36px;
+	float: right;
+}
+#mFContent div a i.buy b, #sContent div a i.buy b {
+	font-weight: normal
+}
+#mFContent div a.more img, #sContent div a.more img{
+	width: 100%;
+	height: 100%
+}
+#twenty, #fifty {
+	display: none
+}
+#sContent div {
+	display: none
+}
+#sContent div#female {
+	display: block
+}
+div.clear {
+	clear: both;
+	height: 40px
+}
+
+#recommend {
+	width: 100%
+}
+#rHead {
+	width: 100%;
+	height: 16px;
+	margin-bottom: 30px;
+	font-size: 16px;
+	text-align: center;
+	color: #000;
+	line-height: 16px;
+	font-family: Heiti SC
+}
+#rHead i {
+	display: inline-block;
+	width: 34px;
+	height: 0px;
+	margin: 0 12px;
+	border-top: 1px solid #000;
+	padding-top: 5px
+}
+
+/*footer*/
+#footer {
+	width: 100%
+}
+#security {
+	width: 1190px;
+	margin: 0 auto
+}
+#sTop {
+	width: 100%;
+	height: 100px;
+	padding: 25px 0;
+	border-bottom: 1px solid #EDEDED
+}
+#security a {
+	float: left;
+	width: 297px;
+	height: 100px;
+}
+#sBottom {
+	width: 100%;
+	height: 174px;
+	padding: 25px 0;
+}
+#sBottom div {
+	width: 108px;
+	padding-left: 50px;
+	padding-right: 80px;
+	float: left
+}
+#sBottom div h3 {
+	font-size: 18px;
+	color: #646464;
+	font-weight: 700;
+	padding-bottom: 8px;
+	font-family:  tahoma,arial,"\5b8b\4f53";
+}
+#sBottom div a {
+	display: inline-block;
+	width: 100%;
+	height: 20px;
+	font-size: 12px;
+	line-height: 14px
+}
+#about {
+	width: 100%;
+	height: 196px;
+	background-color: #000;
+	color: #FFF;
+	border-top: 2px solid #FF0036;
+	position: relative
+}
+#aInner {
+	width: 1190px;
+	margin: 0 auto
+}
+#list, #cooperator {
+	height: 34px;
+	line-height: 34px
+}
+#list a {
+	font-size: 12px;
+	color: #FFF;
+	margin-right: 5px
+}
+#cooperator a {
+	font-size: 12px;
+	line-height: 12px;
+	display: inline-block;
+	height: 11px;
+	color: #FFF;
+	padding-right: 5px;
+	border-right: 1px solid #FFF
+}
+#license, #beian {
+	height: 12px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	font-family: Helvetica,sans-serif;
+	color: #999
+}
+#license span, #beian span {
+	margin-right: 70px
+}
+#beian {
+	height: 20px;
+	margin-bottom: 2px;
+}
+#beian span {
+	height: 100%;
+	line-height: 20px;
+	display: inline-block
+}
+#beian span.bIcon a {
+	background: url('imgs/beian.png') no-repeat;
+	padding-left: 22px;
+	height: 20px;
+	display: inline-block
+}
+#aInner > span {
+	color: #686868
+}
+#about #aInner > img {
+	position: absolute;
+	width: 70px;
+	left: 160px;
+	top: -28px
+}
