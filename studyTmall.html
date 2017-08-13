@@ -1,0 +1,1228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel = "icon" href = "imgs/tmall.png" type = "image/x-icon" />
+<title>天猫精选-理想生活</title>
+<link rel = "stylesheet" type = "text/css" href = "main.css" />
+<link rel = "stylesheet" type = "text/css" href = "iconfont1/iconfont.css" />
+<link rel = "stylesheet" type = "text/css" href = "iconfont2/iconfont.css" />
+<script src = "jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+	<div id = "header">
+    	<div id = "hNav">
+        	<div id = "hNavIn">
+        		<div class = "hNavL">
+            		<em>喵，欢迎来天猫</em>
+                	<a href = "" id = "login">请登录</a>
+                	<a href = "" id = "register">免费注册</a>
+            	</div>
+            	<ul class = "hNavR">
+                    <li class = "mine">
+                    	<a href = "">我的淘宝<b></b></a>
+                        <div id = "mineDown">
+                        	<a href = "">已买到的宝贝</a>
+                            <a href = "">已卖出的宝贝</a>
+                        </div>
+                    </li>
+                    <li class = "brand"><i class = "iconfont icon-xiai"></i><a href = "">我关注的品牌</a></li>
+                    <li class = "shoppingCar"><i class = "iconfont icon-31gouwuchexuanzhong"></i><a href = ""><i>购物车</i><b> 0 </b><i>件</i></a></li>
+                    <li class = "favorites">
+                    	<a href = "">收藏夹<b></b></a>
+                        <div id = "favDown">
+                        	<a href = "">收藏的宝贝</a>
+                            <a href = "">收藏的店铺</a>
+                        </div>
+                    </li>
+                    <li class = "separate"></li>
+                    <li class = "mobile"><i class = "iconfont icon-shouji"></i><a href = "">手机版</a></li>
+                    <li class = "taobao"><a href = "">淘宝网</a></li>
+                    <li class = "enterprise"><a href = "">企业购</a></li>
+                    <li class = "support">
+                    	<a href = "">商家支持<b></b></a>
+                        <div id = "supDown">
+                        	<div>
+                            	<h3>商家：</h3>
+                                <a href = "">商家中心</a>
+                                <a href = "">商家入驻</a>
+                                <a href = "">运营服务</a>
+                                <a href = "">商家品控</a>
+                                <a href = "">商家工具</a>
+                                <a href = "">商家规则</a>
+                                <a href = "">天猫智库</a>
+                                <a href = "">喵言喵语</a>
+                            </div>
+                            <div>
+                            	<h3>帮助：</h3>
+                                <a href = "">帮助中心</a>
+                                <a href = "">问商友</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class = "siteNav">
+                    	<p>
+                        	<i class = "iconfont icon-diantileimu"></i>
+                            <a href = "">网站导航<b></b></a>
+                        </p>
+                        <div id = "NavDown">
+                        	<div id = "hot">
+                            	<h3>热点推荐 Hot</h3>
+                                <div>
+                                	<a href = "">天猫超市</a>
+                                	<a href = "">喵鲜生</a>
+                                	<a href = "">科技新品</a>
+                                	<a href = "">女装新品</a>
+                                	<a href = "">酷玩街</a>
+                                	<a href = "">内衣新品</a>
+                                	<a href = "">试美妆</a>
+                                	<a href = "">运动新品</a>
+                                	<a href = "">时尚先生</a>
+                                	<a href = "">精明妈咪</a>
+                                	<a href = "">吃乐会</a>
+                                	<a href = "">企业采购</a>
+                                	<a href = "">会员积分</a>
+                                	<a href = "">天猫国际</a>
+                                </div>
+                            </div>
+                            <div id = "market">
+                            	<h3>行业市场 Market</h3>
+                                <div>
+                                	<a href = "">美妆</a>
+                                	<a href = "">电器</a>
+                                	<a href = "">女装</a>
+                                	<a href = "">男装</a>
+                                	<a href = "">女鞋</a>
+                                	<a href = "">男鞋</a>
+                                	<a href = "">内衣</a>
+                                	<a href = "">箱包</a>
+                                	<a href = "">运动</a>
+                                	<a href = "">母婴</a>
+                                	<a href = "">家装</a>
+                                	<a href = "">医药</a>
+                                	<a href = "">食品</a>
+                                	<a href = "">配饰</a>
+                                	<a href = "">汽车</a>
+                                </div>
+                            </div>
+                            <div id = "bra">
+                            	<h3>品牌风尚 Brand</h3>
+                                <div>
+                                	<a href = "">尚天猫</a>
+                                	<a href = "">大牌街</a>
+                                	<a href = "">潮牌街</a>
+                                	<a href = "">天猫原创</a>
+                                	<a href = "">什么牌子好</a>
+                                </div>
+                            </div>
+                            <div id = "help">
+                            	<h3>服务指南 Help</h3>
+                                <div>
+                                	<a href = "">帮助中心</a>
+                                	<a href = "">品质保证</a>
+                                	<a href = "">特色服务</a>
+                                	<a href = "">7天退换货</a>
+                            	</div>
+                            </div>
+                        </div>
+                    </li>
+            	</ul>
+            </div>
+        </div>
+        <div id = "jx">
+        	<div id = "jxInner">
+            	<a href = ""><img src = "imgs/jx.png" /></a>
+                <div id = "jxRight">
+                	<form name = "" action = "">
+                    	<input type = "text" id = "search" title = "请输入搜索文字"/>
+                        <label for = "">宝宝出行必备</label>
+                        <button>搜索</button>
+                    </form>
+                    <div>
+                    	<a href = "" class = "tshirt">t恤男</a>
+                        <a href = "" class = "skirt">连衣裙</a>
+                        <a href = "" class = "quilt">夏凉被</a>
+                        <a href = "" class = "aircon">空调</a>
+                        <a href = "" class = "light">客厅灯</a>
+                        <a href = "" class = "sunscr">防晒霜</a>
+                        <a href = "" class = "shoe">凉鞋</a>
+                        <a href = "" class = "bag">双肩包</a>
+                        <a href = "" class = "liquid">驱蚊液</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id = "category">
+        	<div id = "caNav">
+            	<h3>商品服务分类</h3>
+                <ul>
+                	<li><a href = "">尚天猫</a></li>
+                    <li><a href = "">喵鲜生</a></li>
+                    <li><a href = "">天猫会员</a></li>
+                    <li><a href = "">电器城</a></li>
+                    <li><a href = "">天猫超市</a></li>
+                    <li><a href = "">医药馆</a></li>
+                    <li><a href = "">天猫国际</a></li>
+                    <li><a href = "">天猫汽车</a></li>
+                </ul>
+            </div>
+            <div id = "caContent">
+            	<div id = "caContentIn">
+                	<div id = "caLeft">
+                    	<ul id = "caNavUl">
+                        	<li><i class = "iconfont icon-nvzhuangneiyi"></i>女装</li>
+                            <li><i class = "iconfont icon-shumashouji"></i>数码</li>
+                            <li><i class = "iconfont icon-nanzhuang"></i>男装</li>
+                            <li><i class = "iconfont icon-jiafangjiashi">家居</i></li>
+                            <li><i class = "iconfont icon-kouhong"></i>美妆</li>
+                            <li><i class = "iconfont icon-muyingwanju"></i>母婴</li>
+                            <li><i class = "iconfont icon-shipin"></i>美食</li>
+                            <li><i class = "iconfont icon-nanzhuang"></i>运动</li>
+                        </ul>
+                        <div>
+                        	<ul class = "women">
+                            	<li><a href = "">卫衣</a></li>
+                                <li><a href = "">连衣裙</a></li>
+                                <li><a href = "">衬衫</a></li>
+                                <li><a href = "">t恤</a></li>
+                                <li><a href = "">外套</a></li>
+                                <li><a href = "">牛仔裤</a></li>
+                            </ul>
+                            <ul class = "digital">
+                            	<li><a href = "">耳机</a></li>
+                                <li><a href = "">手机壳</a></li>
+                                <li><a href = "">显示器</a></li>
+                                <li><a href = "">移动硬盘</a></li>
+                                <li><a href = "">充电宝</a></li>
+                                <li><a href = "">机械键盘</a></li>
+                            </ul>
+                            <ul class = "men">
+                            	<li><a href = "">冲锋衣</a></li>
+                                <li><a href = "">外套</a></li>
+                                <li><a href = "">夹克</a></li>
+                                <li><a href = "">t恤</a></li>
+                                <li><a href = "">牛仔裤</a></li>
+                                <li><a href = "">衬衫</a></li>
+                            </ul>
+                            <ul class = "home">
+                            	<li><a href = "">沙发</a></li>
+                                <li><a href = "">窗帘</a></li>
+                                <li><a href = "">花架</a></li>
+                                <li><a href = "">电脑桌</a></li>
+                                <li><a href = "">衣柜</a></li>
+                                <li><a href = "">鞋柜</a></li>
+                            </ul>
+                            <ul class = "makeup">
+                            	<li><a href = "">面膜</a></li>
+                                <li><a href = "">香水</a></li>
+                                <li><a href = "">口红</a></li>
+                                <li><a href = "">洗发水</a></li>
+                                <li><a href = "">眼霜</a></li>
+                                <li><a href = "">洗面奶</a></li>
+                            </ul>
+                            <ul class = "mombaby">
+                            	<li><a href = "">玩具</a></li>
+                                <li><a href = "">新款童装</a></li>
+                                <li><a href = "">婴儿床</a></li>
+                                <li><a href = "">亲子装</a></li>
+                                <li><a href = "">童鞋</a></li>
+                                <li><a href = "">婴儿服</a></li>
+                            </ul>
+                            <ul class = "food">
+                            	<li><a href = "">茶叶</a></li>
+                                <li><a href = "">零食</a></li>
+                                <li><a href = "">咖啡</a></li>
+                                <li><a href = "">水果</a></li>
+                                <li><a href = "">巧克力</a></li>
+                                <li><a href = "">生男丸</a></li>
+                            </ul>
+                            <ul class = "exercise">
+                            	<li><a href = "">运动鞋</a></li>
+                                <li><a href = "">钓竿</a></li>
+                                <li><a href = "">运动套装</a></li>
+                                <li><a href = "">篮球鞋</a></li>
+                                <li><a href = "">运动裤</a></li>
+                                <li><a href = "">斯凯奇</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id = "caMiddle">
+                    	<div id = "caMiddleTop">
+                        	<div id = "topPic">
+                            	<div id = "topPicIn">
+                        			<a href = ""><img src = "imgs/lunbo/lunbo1.jpg" /></a>
+                                	<a href = ""><img src = "imgs/lunbo/lunbo2.jpg" /></a>
+                                	<a href = ""><img src = "imgs/lunbo/lunbo3.jpg" /></a>
+                                	<a href = ""><img src = "imgs/lunbo/lunbo4.jpg" /></a>
+                                	<a href = ""><img src = "imgs/lunbo/lunbo5.jpg" /></a>
+                                	<a href = ""><img src = "imgs/lunbo/lunbo6.jpg" /></a>
+                                </div>
+                            </div>
+                            <ul id = "count">
+                            	<li class = "current">1</li>
+                                <li>2</li>
+                                <li>3</li>
+                                <li>4</li>
+                                <li>5</li>
+                                <li>6</li>
+                            </ul>
+                        </div>
+                        <div id = "caMiddleBottom">
+                        	<div id = "bottomPic">
+                            	<div id = "bottomPicIn">
+                                	<div id = "bPicL">
+                                    	<a href = ""><img src = "imgs/lunboSmall/lunboS1.jpg" /></a>
+                                        <a href = ""><img src = "imgs/lunboSmall/lunboS2.jpg" /></a>
+                                        <a href = ""><img src = "imgs/lunboSmall/lunboS3.jpg" /></a>
+                                        <a href = ""><img src = "imgs/lunboSmall/lunboS4.jpeg" /></a>
+                                    </div>
+                                    <div id = "bPicR">
+                                    	<a href = ""><img src = "imgs/lunboSmall/lunboS5.jpg" /></a>
+                                        <a href = ""><img src = "imgs/lunboSmall/lunboS6.jpg" /></a>
+                                        <a href = ""><img src = "imgs/lunboSmall/lunboS7.jpg" /></a>
+                                        <a href = ""><img src = "imgs/lunboSmall/lunboS8.jpg" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul id = "countBottom">
+                            	<li class = "current">1</li>
+                                <li>2</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id = "caRight">
+                    	<a href = ""><img src = "imgs/caRight.jpg" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id = "content">
+    	<div id = "contentIn">
+             <div id = "hotBrand">
+                <div id = "hBHead">
+                    <div id = "hBHeadL">
+                        <a href = ""><img src = "imgs/hotBrand.png" /></a>
+                        <ul>
+                            <li><a href = "" class = "choosed" data-type = "0">国际大牌</a></li>
+                            <li><a href = "" data-type = "1">时尚潮牌</a></li>
+                            <li><a href = "" data-type = "2">国内名牌</a></li>
+                            <li><a href = "" data-type = "3">天猫原创</a></li>
+                        </ul>
+                    </div>
+                    <div id = "hBHeadR">
+                        <a href = "" class = "change">换一批</a>
+                        <a href = "" class = "bStorage">品牌库 ></a>
+                    </div>
+                </div>
+                <div id = "hBContent">
+                    <div id = "international" data-type = "0">
+                        <a href = ""><img src = "imgs/hotBrands/international/1.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/international/2.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/international/3.png" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/international/4.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/international/5.png" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/international/6.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/international/7.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/international/8.png" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/international/9.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/international/10.png" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/international/11.png" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/international/12.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/international/13.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/international/14.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/international/15.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/international/16.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/international/17.png" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/international/18.png" /></a>
+                    </div>
+                    <div id = "fashion" data-type = "1">
+                        <a href = ""><img src = "imgs/hotBrands/fashion/1.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/fashion/2.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/fashion/3.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/fashion/4.png" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/fashion/5.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/fashion/6.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/fashion/7.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/fashion/8.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/fashion/9.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/fashion/10.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/fashion/11.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/fashion/12.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/fashion/13.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/fashion/14.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/fashion/15.png" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/fashion/16.png" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/fashion/17.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/fashion/18.jpg" /></a>
+                    </div>
+                    <div id = "domestic" data-type = "2">
+                        <a href = ""><img src = "imgs/hotBrands/domestic/1.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/domestic/2.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/domestic/3.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/domestic/4.png" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/domestic/5.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/domestic/6.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/domestic/7.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/domestic/8.png" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/domestic/9.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/domestic/10.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/domestic/11.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/domestic/12.png" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/domestic/13.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/domestic/14.png" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/domestic/15.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/domestic/16.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/domestic/17.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/domestic/18.jpg" /></a>
+                    </div>
+                    <div id = "original" data-type = "3">
+                        <a href = ""><img src = "imgs/hotBrands/original/1.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/original/2.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/original/3.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/original/4.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/original/5.png" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/original/6.png" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/original/7.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/original/8.png" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/original/9.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/original/10.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/original/11.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/original/12.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/original/13.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/original/14.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/original/15.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/original/16.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/original/17.jpg" /></a>
+                        <a href = ""><img src = "imgs/hotBrands/original/18.jpg" /></a>
+                    </div>
+                </div>
+             </div>
+             <a href = "" id = "discount"><img src = "imgs/discount.jpg" /></a>
+             <div id = "mailFree">
+             	<div id = "mFHead">
+                	<a href = ""><i class = "iconfont2 icon-servicehaiwaizhiyou"></i> 包邮专区</a>
+                    <div>
+                    	<a href = "" class = "mChoosed" data-type = "4">天天9块9</a>
+                        <a href = "" data-type = "5">20元封顶</a>
+                        <a href = "" data-type = "6">50元好货</a>
+                    </div>
+                </div>
+                <div id = "mFContent">
+                	<div id = "nine" data-type = "4">
+                		<a href = "">
+                    		<img src = "imgs/mailFree/9.9/1.jpg" />
+                        	<p>秋款短裙春夏款半身裙高腰百褶蓬蓬伞裙A字裙子打底女装大码冬款</p>
+                        	<i class = "price"><b>￥</b> 9.9</i>
+                        	<i class = "buy"><b>277</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/mailFree/9.9/2.jpg" />
+                        	<p>包邮5送1好想你红枣 新郑红枣200克 新郑当地小灰枣即食 煮汤佳品</p>
+                        	<i class = "price"><b>￥</b> 9.9</i>
+                        	<i class = "buy"><b>77</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/mailFree/9.9/3.jpg" />
+                        	<p>2017春秋装潮韩版女装宽松一字肩条纹长袖喇叭袖套头T恤休闲上衣</p>
+                        	<i class = "price"><b>￥</b> 9.95</i>
+                        	<i class = "buy"><b>1153</b>人已买</i>
+                    	</a>
+                        <a href = "" class = "more">
+                    		<img src = "imgs/mailFree/more.png" />
+                    	</a>
+                	</div>
+                    <div id = "twenty" data-type = "5">
+                    	<a href = "">
+                    		<img src = "imgs/mailFree/20/1.jpg" />
+                        	<p>JVR 秋冬新款春季男士休闲裤长裤子宽松透气运动裤韩版卫裤 男潮</p>
+                        	<i class = "price"><b>￥</b> 19.8</i>
+                        	<i class = "buy"><b>338</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/mailFree/20/2.jpg" />
+                        	<p>创得苹果5s手机壳 iPhone5s保护套se简约磨砂防摔外壳软硅胶男女</p>
+                        	<i class = "price"><b>￥</b> 19.8</i>
+                        	<i class = "buy"><b>12035</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/mailFree/20/3.jpg" />
+                        	<p>奥瑞朗iphone6钢化玻璃膜苹果6s钢化膜7防指纹6plus手机贴膜高清</p>
+                        	<i class = "price"><b>￥</b> 18.8</i>
+                        	<i class = "buy"><b>92658</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/mailFree/20/4.jpg" />
+                        	<p>正品护肤品套装男女士深层补水保湿洗面奶爽肤水乳液非美白化妆品</p>
+                        	<i class = "price"><b>￥</b> 12.9</i>
+                        	<i class = "buy"><b>1783</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/mailFree/20/5.jpg" />
+                        	<p>男士皮鞋男黑色英伦圆头系带青年商务休闲皮鞋夏季新款男鞋子软底</p>
+                        	<i class = "price"><b>￥</b> 19.9</i>
+                        	<i class = "buy"><b>2870</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/mailFree/20/6.jpg" />
+                        	<p>2017男鞋春季潮鞋男士韩版休闲皮鞋圆头系带男鞋青少年板鞋男</p>
+                        	<i class = "price"><b>￥</b> 19.9</i>
+                        	<i class = "buy"><b>438</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/mailFree/20/7.jpg" />
+                        	<p>2017新款中老年女包民族风绣花包包刺绣帆布小包中年女士手提包</p>
+                        	<i class = "price"><b>￥</b> 16</i>
+                        	<i class = "buy"><b>395</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/mailFree/20/8.jpg" />
+                        	<p>洁派芦荟润唇膏保湿滋润无色补水唇膜唇部护理淡化唇色女男士防水</p>
+                        	<i class = "price"><b>￥</b> 12.8</i>
+                        	<i class = "buy"><b>263</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/mailFree/20/9.jpg" />
+                        	<p>卜珂芒果爆浆麻薯零食早餐小吃店美食驴打滚糕点心散装批发</p>
+                        	<i class = "price"><b>￥</b> 13.9</i>
+                        	<i class = "buy"><b>913</b>人已买</i>
+                    	</a>
+                        <a href = "" class = "more">
+                    		<img src = "imgs/mailFree/more.png" />
+                    	</a>
+                    </div>
+                    <div id = "fifty" data-type = "6">
+                    	<a href = "">
+                    		<img src = "imgs/mailFree/50/1.jpg" />
+                        	<p>【真心-每日坚果26g*7袋】美仁季混合坚果大礼包干果果仁组合零食</p>
+                        	<i class = "price"><b>￥</b> 34.9</i>
+                        	<i class = "buy"><b>140</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/mailFree/50/2.jpg" />
+                        	<p>夏季小脚裤九分裤男长裤休闲裤男直筒宽松男裤薄款修身男士裤子男</p>
+                        	<i class = "price"><b>￥</b> 38</i>
+                        	<i class = "buy"><b>266</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/mailFree/50/3.jpg" />
+                        	<p>阁楼花开蕾丝打底裙吊带背心裙女中长款秋冬内搭无袖拼接连衣裙夏</p>
+                        	<i class = "price"><b>￥</b> 35.9</i>
+                        	<i class = "buy"><b>2</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/mailFree/50/4.jpg" />
+                        	<p>秋冬新款宽松高领套头毛衣女秋冬款 韩版长袖百搭打底针织衫加厚</p>
+                        	<i class = "price"><b>￥</b> 39.9</i>
+                        	<i class = "buy"><b>16</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/mailFree/50/5.jpg" />
+                        	<p>秋装新款高领毛衣女套头中长款韩版修身连衣裙女包臀针织衫打底衫</p>
+                        	<i class = "price"><b>￥</b> 39</i>
+                        	<i class = "buy"><b>18</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/mailFree/50/6.jpg" />
+                        	<p>果小二奶油夏威夷果碧根果3袋特产休闲零食品干果混合坚果组合</p>
+                        	<i class = "price"><b>￥</b> 32.9</i>
+                        	<i class = "buy"><b>863</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/mailFree/50/7.jpg" />
+                        	<p>17年包邮新货陆哥夏威夷果澳洲坚果奶香味坚果零食送开口器500g</p>
+                        	<i class = "price"><b>￥</b> 38.5</i>
+                        	<i class = "buy"><b>583</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/mailFree/50/8.jpg" />
+                        	<p>冬季男士毛衣加厚连帽针织衫韩版男装保暖外套青年冬装线衣潮外衣</p>
+                        	<i class = "price"><b>￥</b> 39.6</i>
+                        	<i class = "buy"><b>5</b>人已买</i>
+                    	</a>                      
+                        <a href = "">
+                    		<img src = "imgs/mailFree/50/9.jpg" />
+                        	<p>iphone6苹果6plus手机壳6s防摔六硅胶套带支架p男女款puls新款sp</p>
+                        	<i class = "price"><b>￥</b> 35</i>
+                        	<i class = "buy"><b>13702</b>人已买</i>
+                    	</a>
+                        <a href = "" class = "more">
+                    		<img src = "imgs/mailFree/more.png" />
+                    	</a>
+                    </div>
+                </div>
+             </div>
+             <div class = "clear"></div>
+             <div id = "select">
+             	<div id = "sHead">
+                	<a href = ""><i class = "iconfont2 icon-zhubaoshipin"></i> 精选市场</a>
+                    <div>
+                    	<a href = "" class = "sChoosed" data-type = "7">女装</a>
+                        <a href = "" data-type = "8">男装</a>
+                        <a href = "" data-type = "9">箱包</a>
+                        <a href = "" data-type = "10">食品</a>
+                        <a href = "" data-type = "11">电器城</a>
+                        <a href = "" data-type = "12">美妆</a>
+                        <a href = "" data-type = "13">鞋品</a>
+                        <a href = "" data-type = "14">运动户外</a>
+                    </div>
+                </div>
+                <div id = "sContent">
+                	<div id = "female" data-type = "7">
+                    	<a href = "">
+                    		<img src = "imgs/select/female/1.jpg" />
+                        	<p>反季清仓羽绒服女大毛领中长款加厚长过膝韩版冬装收腰显瘦女装潮</p>
+                        	<i class = "price"><b>￥</b> 298</i>
+                        	<i class = "buy"><b>335</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/female/2.jpg" />
+                        	<p>2017秋冬新款毛呢外套女中长款大码加厚修身显瘦学生韩呢子大衣女</p>
+                        	<i class = "price"><b>￥</b> 98</i>
+                        	<i class = "buy"><b>149</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/female/3.jpg" />
+                        	<p>毛呢外套女中长款韩版2017新款呢子冬季宽松大码冬装加厚毛呢大衣</p>
+                        	<i class = "price"><b>￥</b> 298</i>
+                        	<i class = "buy"><b>17</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/female/4.jpg" />
+                        	<p>韩语琳空间2017秋装名媛女装修身网纱绣花拼接荷叶边露背连衣裙子</p>
+                        	<i class = "price"><b>￥</b> 199</i>
+                        	<i class = "buy"><b>53</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/female/5.jpg" />
+                        	<p>Palglg 2017秋装女装新款韩版修身显瘦无袖背带a字短裙连衣裙2812</p>
+                        	<i class = "price"><b>￥</b> 178</i>
+                        	<i class = "buy"><b>13</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/female/6.jpg" />
+                        	<p>短款高领白色毛衣女秋冬季韩版宽松套头打底衫线衣针织衫加厚外套</p>
+                        	<i class = "price"><b>￥</b> 49.9</i>
+                        	<i class = "buy"><b>30</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/female/7.jpg" />
+                        	<p>半高领毛衣女套头韩版加厚宽松大码长袖秋冬新款打底衫2017上衣潮</p>
+                        	<i class = "price"><b>￥</b> 58</i>
+                        	<i class = "buy"><b>66</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/female/8.jpg" />
+                        	<p>优资莲秋冬装新款韩版宽松加厚中长款长袖针织打底衫毛衣女潮</p>
+                        	<i class = "price"><b>￥</b> 59</i>
+                        	<i class = "buy"><b>72</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/female/9.jpg" />
+                        	<p>毛呢外套女中长款呢子大衣女2017新款秋冬季韩版加厚宽松学生韩国</p>
+                        	<i class = "price"><b>￥</b> 118</i>
+                        	<i class = "buy"><b>15</b>人已买</i>
+                    	</a>
+                        <a href = "" class = "more">
+                    		<img src = "imgs/select/more.png" />
+                    	</a>
+                    </div>
+                    <div id = "male" data-type = "8">
+                    	<a href = "">
+                    		<img src = "imgs/select/male/1.jpg" />
+                        	<p>黄金琼斯反季清仓轻薄羽绒服男士立领修身短款大码薄款冬装外套潮</p>
+                        	<i class = "price"><b>￥</b> 168</i>
+                        	<i class = "buy"><b>534</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/male/2.jpg" />
+                        	<p>秋季灯芯绒男裤薄款弹力男士休闲裤加绒韩版修身小脚裤条绒长裤子</p>
+                        	<i class = "price"><b>￥</b> 69</i>
+                        	<i class = "buy"><b>106</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/male/3.jpg" />
+                        	<p>男士外套冬季2016潮流新款男装青年棉衣韩版修身短款棉服加厚棉袄</p>
+                        	<i class = "price"><b>￥</b> 178</i>
+                        	<i class = "buy"><b>15</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/male/4.jpg" />
+                        	<p>英爵伦 新款男士冬季棉衣外套 青年短款棉服 韩版棒球服棉袄上衣</p>
+                        	<i class = "price"><b>￥</b> 298</i>
+                        	<i class = "buy"><b>8</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/male/5.jpg" />
+                        	<p>2017夏季薄款男士牛仔裤男修身小脚裤韩版潮流男裤休闲黑色裤子男</p>
+                        	<i class = "price"><b>￥</b> 69.9</i>
+                        	<i class = "buy"><b>67537</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/male/6.jpg" />
+                        	<p>男士高领毛衣秋冬套头毛衫加厚针织衫韩版修身潮流纯色黑色打底衫</p>
+                        	<i class = "price"><b>￥</b> 39</i>
+                        	<i class = "buy"><b>1007</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/male/7.jpg" />
+                        	<p>反季清仓中老年羽绒服男士短款加厚中年爸爸装冬装老年人大码外套</p>
+                        	<i class = "price"><b>￥</b> 229</i>
+                        	<i class = "buy"><b>21</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/male/8.jpg" />
+                        	<p>中年男士休闲裤宽松直筒高腰西裤春季中老年男裤长裤夏款爸爸裤子</p>
+                        	<i class = "price"><b>￥</b> 59</i>
+                        	<i class = "buy"><b>86</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/male/9.jpg" />
+                        	<p>男士外套春季2017新款韩版春秋潮流薄款休闲皮夹克男青年皮衣</p>
+                        	<i class = "price"><b>￥</b> 49</i>
+                        	<i class = "buy"><b>174</b>人已买</i>
+                    	</a>
+                        <a href = "" class = "more">
+                    		<img src = "imgs/select/more.png" />
+                    	</a>
+                    </div>
+                    <div id = "bag" data-type = "9">
+                    	<a href = "">
+                    		<img src = "imgs/select/bag/1.jpg" />
+                        	<p>女士包包2017韩版新款女包手提包简约时尚单肩包斜挎小包包百搭潮</p>
+                        	<i class = "price"><b>￥</b> 49</i>
+                        	<i class = "buy"><b>9236</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/bag/2.jpg" />
+                        	<p>女士包包女2016新款潮手提包韩版时尚简约女包百搭斜挎小包小方包</p>
+                        	<i class = "price"><b>￥</b> 59</i>
+                        	<i class = "buy"><b>219</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/bag/3.jpg" />
+                        	<p>波米铝框拉杆箱万向轮密码旅行箱子20/24寸行李箱女皮箱包男26/28</p>
+                        	<i class = "price"><b>￥</b> 258</i>
+                        	<i class = "buy"><b>9725</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/bag/4.jpg" />
+                        	<p>汉客镇店之宝硬箱 万向轮拉杆箱20寸旅行箱24寸行李箱男女登机箱</p>
+                        	<i class = "price"><b>￥</b> 298</i>
+                        	<i class = "buy"><b>11591</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/bag/5.jpg" />
+                        	<p>链条小猪包2017新款时尚女包单肩斜挎包韩版百搭夏天迷你小包包潮</p>
+                        	<i class = "price"><b>￥</b> 139</i>
+                        	<i class = "buy"><b>754</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/bag/6.jpg" />
+                        	<p>夏天包包2017新款百搭链条包单肩包小方包 斜挎包迷你女包韩版潮</p>
+                        	<i class = "price"><b>￥</b> 69</i>
+                        	<i class = "buy"><b>7918</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/bag/7.jpg" />
+                        	<p>女士包包2017新款时尚简约贝壳包女包手提包女单肩斜挎包小熊</p>
+                        	<i class = "price"><b>￥</b> 59</i>
+                        	<i class = "buy"><b>99</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/bag/8.jpg" />
+                        	<p>CHARLES&amp;KEITH单肩包 CK2-80700230 复古斜挎豆腐包小方包女包</p>
+                        	<i class = "price"><b>￥</b> 399</i>
+                        	<i class = "buy"><b>1083</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/bag/9.jpg" />
+                        	<p>艾奔 双肩包男背包女韩版潮 商务男士电脑包高中学生书包休闲旅行</p>
+                        	<i class = "price"><b>￥</b> 89</i>
+                        	<i class = "buy"><b>32662</b>人已买</i>
+                    	</a>
+                        <a href = "" class = "more">
+                    		<img src = "imgs/select/more.png" />
+                    	</a>
+                    </div>
+                    <div id = "food" data-type = "10">
+                    	<a href = "">
+                    		<img src = "imgs/select/food/1.jpg" />
+                        	<p>享食者每日坚果大礼包孕妇休闲零食套餐组合礼盒干果混合装送女友</p>
+                        	<i class = "price"><b>￥</b> 49.9</i>
+                        	<i class = "buy"><b>2257</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/food/2.jpg" />
+                        	<p>口水娃零食大礼包1300g坚果炒货兰花豆青豆瓜子仁花生蚕豆小吃</p>
+                        	<i class = "price"><b>￥</b> 32.8</i>
+                        	<i class = "buy"><b>5326</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/food/3.jpg" />
+                        	<p>【老街口-花生瓜子大礼包组合1840g】 坚果零食炒货葵花籽4袋装</p>
+                        	<i class = "price"><b>￥</b> 45.9</i>
+                        	<i class = "buy"><b>26</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/food/4.jpg" />
+                        	<p>韩国进口食品三养火鸡面140g*5包辣速食鸡肉拉泡面干拌面方便面</p>
+                        	<i class = "price"><b>￥</b> 23.5</i>
+                        	<i class = "buy"><b>60151</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/food/5.jpg" />
+                        	<p>韩国进口方便面 三养火鸡面炒面超辣泡面鸡肉味即食干拌面140g*10</p>
+                        	<i class = "price"><b>￥</b> 48.9</i>
+                        	<i class = "buy"><b>32151</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/food/6.jpg" />
+                        	<p>友臣肉松饼整箱2.5斤装 特产早餐糕点小吃面包美食零食品批发包邮</p>
+                        	<i class = "price"><b>￥</b> 38.5</i>
+                        	<i class = "buy"><b>33097</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/food/7.jpg" />
+                        	<p>江小白深夜食堂同款酒国产高粱白酒粮食酒小酒45度100ml*6瓶箱装</p>
+                        	<i class = "price"><b>￥</b> 99</i>
+                        	<i class = "buy"><b>6014</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/food/8.jpg" />
+                        	<p>良品铺子焦糖味爆米花奶油爆玉米花罐装零食好吃的膨化食118g</p>
+                        	<i class = "price"><b>￥</b> 11.9</i>
+                        	<i class = "buy"><b>1840</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/food/9.jpg" />
+                        	<p>光明纯牛奶  优+全脂早餐奶 礼盒装 整箱 250ml*12盒/箱</p>
+                        	<i class = "price"><b>￥</b> 49.9</i>
+                        	<i class = "buy"><b>268</b>人已买</i>
+                    	</a>
+                        <a href = "" class = "more">
+                    		<img src = "imgs/select/more.png" />
+                    	</a>
+                    </div>
+                    <div id = "elec" data-type = "11">
+                    	<a href = "">
+                    		<img src = "imgs/select/elec/1.jpg" />
+                        	<p>限时立省400华为honor/荣耀 荣耀8 全网通4G官方青春拍照手机</p>
+                        	<i class = "price"><b>￥</b> 2099</i>
+                        	<i class = "buy"><b>7141</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/elec/2.jpg" />
+                        	<p>oppor9手机壳r9plus保护套R9splus磨砂oppor9s手机壳r9s男女r11</p>
+                        	<i class = "price"><b>￥</b> 9.9</i>
+                        	<i class = "buy"><b>10738</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/elec/3.jpg" />
+                        	<p>艾卡仕 苹果6手机壳 iphone6s plus苹果六保护套硅胶超薄透明防摔</p>
+                        	<i class = "price"><b>￥</b> 9.9</i>
+                        	<i class = "buy"><b>5954</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/elec/4.jpg" />
+                        	<p>Neken/尼凯恩 EN8老人手机移动联通电信大屏老年机大字大声老人机</p>
+                        	<i class = "price"><b>￥</b> 69</i>
+                        	<i class = "buy"><b>70056</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/elec/5.jpg" />
+                        	<p>Neken/尼凯恩 EN3三防军工直板超长待机 移动电信老年机老人手机</p>
+                        	<i class = "price"><b>￥</b> 89</i>
+                        	<i class = "buy"><b>86664</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/elec/6.jpg" />
+                        	<p>SUPOR/苏泊尔 SWF17E18A家用电热水壶304不锈钢烧水壶自动断电</p>
+                        	<i class = "price"><b>￥</b> 89</i>
+                        	<i class = "buy"><b>42527</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/elec/7.jpg" />
+                        	<p>Joyoung/九阳 JYK-17C15电热水壶家用烧水壶器304不锈钢自动断电</p>
+                        	<i class = "price"><b>￥</b> 67</i>
+                        	<i class = "buy"><b>14534</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/elec/8.jpg" />
+                        	<p>飞科剃须刀男士飞科电动剃须刀刮胡刀旋转充电式 胡须刀正品FS360</p>
+                        	<i class = "price"><b>￥</b> 69</i>
+                        	<i class = "buy"><b>15608</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/elec/9.jpg" />
+                        	<p>飞利浦全身水洗智能电动充电式剃须刀男士刮胡刀胡须刀原装正品包</p>
+                        	<i class = "price"><b>￥</b> 189</i>
+                        	<i class = "buy"><b>42433</b>人已买</i>
+                    	</a>
+                        <a href = "" class = "more">
+                    		<img src = "imgs/select/more.png" />
+                    	</a>
+                    </div>
+                    <div id = "makeup" data-type = "12">
+                    	<a href = "">
+                    		<img src = "imgs/select/makeup/1.jpg" />
+                        	<p>欧诗漫化妆品套装女补水保湿爽肤水乳液美白洗面奶护肤品正品少女</p>
+                        	<i class = "price"><b>￥</b> 89</i>
+                        	<i class = "buy"><b>44202</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/makeup/2.jpg" />
+                        	<p>韩后水动力化妆品套装女学生水乳补水保湿控油护肤品正品少女乳液</p>
+                        	<i class = "price"><b>￥</b> 99</i>
+                        	<i class = "buy"><b>29511</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/makeup/3.jpg" />
+                        	<p>第二支半价稚优泉口红持久保湿不易脱色南瓜西柚豆沙色防水唇膏不</p>
+                        	<i class = "price"><b>￥</b> 59.9</i>
+                        	<i class = "buy"><b>49104</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/makeup/4.jpg" />
+                        	<p>水尚多效出水bb霜 持久裸妆遮瑕保湿补水隔离 男女防水控油粉底液</p>
+                        	<i class = "price"><b>￥</b> 9.99</i>
+                        	<i class = "buy"><b>22281</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/makeup/5.jpg" />
+                        	<p>百雀羚化妆品护肤套装女男补水保湿控油爽肤水乳液精华正品学生</p>
+                        	<i class = "price"><b>￥</b> 248</i>
+                        	<i class = "buy"><b>8445</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/makeup/6.jpg" />
+                        	<p>innisfree/悦诗风吟济州岛香氛护手霜冬季丝滑彩色滋润保湿30ml</p>
+                        	<i class = "price"><b>￥</b> 30</i>
+                        	<i class = "buy"><b>1211</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/makeup/7.jpg" />
+                        	<p>美馨雅舍润唇膏diy材料包 唇膏护唇膏工具套餐</p>
+                        	<i class = "price"><b>￥</b> 1.5</i>
+                        	<i class = "buy"><b>132</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/makeup/8.jpg" />
+                        	<p>美肌秀儿润唇膏保湿滋润补水无色防干裂护唇膏女男士唇部淡化唇纹</p>
+                        	<i class = "price"><b>￥</b> 6.8</i>
+                        	<i class = "buy"><b>2852</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/makeup/9.jpg" />
+                        	<p>芦荟温变口红 果冻变色唇膏 持久不沾杯补水滋润保湿学生孕妇裸妆</p>
+                        	<i class = "price"><b>￥</b> 16.9</i>
+                        	<i class = "buy"><b>18650</b>人已买</i>
+                    	</a>
+                        <a href = "" class = "more">
+                    		<img src = "imgs/select/more.png" />
+                    	</a>
+                    </div>
+                    <div id = "shoe" data-type = "13">
+                    	<a href = "">
+                    		<img src = "imgs/select/shoe/1.jpg" />
+                        	<p>男鞋夏季工装鞋男低帮大头鞋男士休闲皮鞋英伦复古马丁鞋子男潮鞋</p>
+                        	<i class = "price"><b>￥</b> 159</i>
+                        	<i class = "buy"><b>813</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/shoe/2.jpg" />
+                        	<p>2017新款夏季休闲男鞋子马丁大头小皮鞋英伦潮流韩版潮鞋百搭单鞋</p>
+                        	<i class = "price"><b>￥</b> 58</i>
+                        	<i class = "buy"><b>497</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/shoe/3.jpg" />
+                        	<p>新款冬季雪地靴磨砂潮女鞋平底短筒短靴防水加绒加厚保暖棉鞋女靴</p>
+                        	<i class = "price"><b>￥</b> 25.8</i>
+                        	<i class = "buy"><b>242</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/shoe/4.jpg" />
+                        	<p>秋冬季雪地靴女士翻毛短筒靴磨砂流苏棉靴学生圆头防水防滑保暖鞋</p>
+                        	<i class = "price"><b>￥</b> 29.9</i>
+                        	<i class = "buy"><b>98</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/shoe/5.jpg" />
+                        	<p>花花公子男鞋夏季潮鞋男士运动休闲鞋韩版潮流百搭鞋子透气板鞋男</p>
+                        	<i class = "price"><b>￥</b> 179</i>
+                        	<i class = "buy"><b>1336</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/shoe/6.jpg" />
+                        	<p>百搭潮鞋情侣夏季小白鞋男士休闲白鞋运动板鞋白色韩版潮流男鞋子</p>
+                        	<i class = "price"><b>￥</b> 158</i>
+                        	<i class = "buy"><b>3655</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/shoe/7.jpg" />
+                        	<p>奥康男鞋夏商务正装皮鞋男青年真皮潮鞋婚鞋大码鞋子男英伦德比鞋</p>
+                        	<i class = "price"><b>￥</b> 259</i>
+                        	<i class = "buy"><b>4554</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/shoe/8.jpg" />
+                        	<p>2017春秋季新款学院英伦风粗跟单鞋女鞋平底休闲复古小皮鞋松糕鞋</p>
+                        	<i class = "price"><b>￥</b> 29.9</i>
+                        	<i class = "buy"><b>555</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/shoe/9.jpg" />
+                        	<p>运动鞋男跑鞋男鞋春夏季2017百搭潮鞋内增高学生鞋子男休闲跑步鞋</p>
+                        	<i class = "price"><b>￥</b> 69</i>
+                        	<i class = "buy"><b>37919</b>人已买</i>
+                    	</a>
+                        <a href = "" class = "more">
+                    		<img src = "imgs/select/more.png" />
+                    	</a>
+                    </div>
+                    <div id = "outdoor" data-type = "14">
+                    	<a href = "">
+                    		<img src = "imgs/select/outdoor/1.jpg" />
+                        	<p>特步男鞋运动鞋男夏秋季新款跑步鞋透气皮面休闲白色跑鞋学生黑鞋</p>
+                        	<i class = "price"><b>￥</b> 139</i>
+                        	<i class = "buy"><b>1821</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/outdoor/2.jpg" />
+                        	<p>迪卡侬旗舰店官方店冲锋上衣女单层外套防风防水夹克QUECHUA L3</p>
+                        	<i class = "price"><b>￥</b> 199</i>
+                        	<i class = "buy"><b>446</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/outdoor/3.jpg" />
+                        	<p>拍下69元冲锋衣男春秋薄款四季外套女单层潮春季户外登山服防风衣</p>
+                        	<i class = "price"><b>￥</b> 159</i>
+                        	<i class = "buy"><b>92</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/outdoor/4.jpg" />
+                        	<p>启迈斯R8跑步机家用款超静音多功能折叠健身器材智能电动跑步机</p>
+                        	<i class = "price"><b>￥</b> 1299</i>
+                        	<i class = "buy"><b>1446</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/outdoor/5.jpg" />
+                        	<p>启迈斯MQ7跑步机家用款超静音减肥多功能商用电动折叠健身房器材</p>
+                        	<i class = "price"><b>￥</b> 2799</i>
+                        	<i class = "buy"><b>792</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/outdoor/6.jpg" />
+                        	<p>迪卡侬 儿童运动紧身裤 青少年快干篮球足球跑步训练运动裤KIPSTA</p>
+                        	<i class = "price"><b>￥</b> 59</i>
+                        	<i class = "buy"><b>71</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/outdoor/7.jpg" />
+                        	<p>运动裤男夏季薄款速干跑步裤宽松健身足球训练长裤收口小脚休闲裤</p>
+                        	<i class = "price"><b>￥</b> 39.9</i>
+                        	<i class = "buy"><b>5000</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/outdoor/8.jpg" />
+                        	<p>迪卡侬背包女男折叠包 运动旅游休闲迷你双肩包 户外14L NEWFEEL</p>
+                        	<i class = "price"><b>￥</b> 14.9</i>
+                        	<i class = "buy"><b>1566</b>人已买</i>
+                    	</a>
+                        <a href = "">
+                    		<img src = "imgs/select/outdoor/9.jpg" />
+                        	<p>迪卡侬 户外双肩背包轻便皮肤包可折叠薄款防水女旅行 QUECHUA TB</p>
+                        	<i class = "price"><b>￥</b> 12.9</i>
+                        	<i class = "buy"><b>4908</b>人已买</i>
+                    	</a>
+                        <a href = "" class = "more">
+                    		<img src = "imgs/select/more.png" />
+                    	</a>
+                    </div>
+                </div>
+        	</div>
+            <div class = "clear"></div>
+            <div id = "recommend">
+            	<div id = "rHead">
+                	<i></i>
+                    猜你喜欢
+                    <i></i>
+                </div>
+                <div id = "rContent">
+                	<a href = "">
+                    	<img src = "imgs/recommend/1.jpg" />
+                        <p>[热销]一对装】南极人全棉枕头枕芯酒店羽丝绒护颈椎枕单人成人学生枕</p>
+                        <i class = "price"><b>￥</b> 48.0</i>
+                    </a>
+                    <a href = "">
+                    	<img src = "imgs/recommend/2.jpg" />
+                        <p>[热销]博朗oral-b欧乐b电动牙刷 成人 充电式家用旋转式声波深层清洁d16</p>
+                        <i class = "price"><b>￥</b> 349.0</i>
+                    </a>
+                    <a href = "">
+                    	<img src = "imgs/recommend/3.jpg" />
+                        <p>[热销]【天猫超市】蓝月亮洗衣液薰衣草亮白增艳洁净衣物护理3kg/瓶装</p>
+                        <i class = "price"><b>￥</b> 56.8</i>
+                    </a>
+                    <a href = "">
+                    	<img src = "imgs/recommend/4.jpg" />
+                        <p>[热销]曼妮芬性感光面调整型内衣无钢圈聚拢文胸舒适无痕收副乳女士胸罩</p>
+                        <i class = "price"><b>￥</b> 169.0</i>
+                    </a>
+                    <a href = "">
+                    	<img src = "imgs/recommend/5.jpg" />
+                        <p>[热销]法国beaba婴儿辅食机宝宝多功能蒸煮搅拌一体料理研磨器babycook</p>
+                        <i class = "price"><b>￥</b> 1299.0</i>
+                    </a>
+                    <a href = "">
+                    	<img src = "imgs/recommend/6.jpg" />
+                        <p>[热销]Midea/美的 MK-TM1502电热水壶防烫烧水壶家用304不锈钢自动断电</p>
+                        <i class = "price"><b>￥</b> 79.0</i>
+                    </a>
+                    <a href = "">
+                    	<img src = "imgs/recommend/7.jpg" />
+                        <p>[热销]MORPHY RICHARDS/摩飞电器 MR9200摩飞便携果汁机榨汁机家用迷你</p>
+                        <i class = "price"><b>￥</b> 298.0</i>
+                    </a>
+                    <a href = "">
+                    	<img src = "imgs/recommend/8.jpg" />
+                        <p>[热销]泰国圣荷纳米美胸霜2月装丰胸乳霜精油贴增大丰乳正品产品排行榜</p>
+                        <i class = "price"><b>￥</b> 1850.0</i>
+                    </a>
+                    <a href = "">
+                    	<img src = "imgs/recommend/9.jpg" />
+                        <p>[热销]JOMOO九牧虹吸式抽水马桶节水防臭小户型家用普通陶瓷坐便器11173</p>
+                        <i class = "price"><b>￥</b> 799.0</i>
+                    </a>
+                    <a href = "">
+                    	<img src = "imgs/recommend/10.jpg" />
+                        <p>[热销]【天猫超市】港荣蒸蛋糕1kg整箱糕点休闲零食早餐点心手撕面包</p>
+                        <i class = "price"><b>￥</b> 54.1</i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "cClear"></div>
+    <div id = "footer">
+    	<div id = "security">
+        	<div id = "sTop">
+            	<a href = ""><img src = "imgs/security/1.png" /></a>
+                <a href = ""><img src = "imgs/security/2.png" /></a>
+                <a href = ""><img src = "imgs/security/3.png" /></a>
+                <a href = ""><img src = "imgs/security/4.png" /></a>
+            </div>
+            <div id = "sBottom">
+            	<div id = "guide">
+                	<h3>购物指南</h3>
+                    <a href = "">免费注册</a>
+                    <a href = "">开通支付宝</a>
+                    <a href = "">支付宝充值</a>
+                </div>
+                <div id = "secu">
+                	<h3>天猫保障</h3>
+                    <a href = "">发票保障</a>
+                    <a href = "">售后规则</a>
+                    <a href = "">缺货赔付</a>
+                </div>
+                <div id = "pay">
+                	<h3>支付方式</h3>
+                    <a href = "">快捷支付</a>
+                    <a href = "">信用卡</a>
+                    <a href = "">余额宝</a>
+                    <a href = "">蚂蚁花呗</a>
+                    <a href = "">货到付款</a>
+                </div>
+                <div id = "service">
+                	<h3>商家服务</h3>
+                    <a href = "">商家入驻</a>
+                    <a href = "">商家中心</a>
+                    <a href = "">天猫智库</a>
+                    <a href = "">天猫规则</a>
+                    <a href = "">物流服务</a>
+                    <a href = "">喵言喵语</a>
+                    <a href = "">运营服务</a>
+                </div>
+                <div id = "qr">
+                	<h3>手机天猫</h3>
+                    <a href = ""><img src = "imgs/qr.png" /></a>
+                </div>
+            </div>
+        </div>
+        <div id = "about">
+        	<div id = "aInner">
+            	<div id = "list">
+                	<a href = "">关于天猫</a>
+                    <a href = "">帮助中心</a>
+                    <a href = "">开放平台</a>
+                    <a href = "">诚聘英才</a>
+                    <a href = "">联系我们</a>
+                    <a href = "">网站合作</a>
+                    <a href = "">法律声明及隐私权政策</a>
+                    <a href = "">知识产权</a>
+                    <a href = "">廉政举报</a>
+                </div>
+                <div id = "cooperator">
+                	<a href = "">阿里巴巴集团</a>
+                    <a href = "">淘宝网</a>
+                    <a href = "">天猫</a>
+                    <a href = "">聚划算</a>
+                    <a href = "">全球通速卖</a>
+                    <a href = "">阿里巴巴国际交易市场</a>
+                    <a href = "">1688</a>
+                    <a href = "">阿里妈妈</a>
+                    <a href = "">飞猪</a>
+                    <a href = "">阿里云计算</a>
+                    <a href = "">YunOS</a>
+                    <a href = "">阿里通信</a>
+                    <a href = "">万网</a>
+                    <a href = "">高德</a>
+                    <a href = "">UC</a>
+                    <a href = "">友盟</a>
+                    <a href = "">虾米</a>
+                    <a href = "">阿里星球</a>
+                    <a href = "">来往</a>
+                    <a href = "">钉钉</a>
+                    <a href = "">支付宝</a>
+                </div>
+                <div id = "license">
+                	<span>增值电信业务经营许可证：<a href = "">浙B2-20110446</a></span>
+                    <span>网络文化经营许可证：<a href = "">浙网文[2015]0295-065号</a></span>
+                    <span><a href = "">12318举报</a></span>
+                </div>
+                <div id = "beian">
+                    <span>互联网药品信息服务资质证书编号：<a href = "">浙-(经营性)-2017-0005</a></span>
+                    <span class = "bIcon"><a href = "">浙公网安备 33010002000120号</a></span>
+                </div>
+                <span>&copy;2013-2017 TMALL.COM 版权所有</span>
+                <img src = "imgs/catIcon.png" />
+            </div>
+        </div>
+    </div>
+    <div id = "sliderBar">
+    	<div id = "sBarTop">
+        	<a href = ""><i class = "iconfont icon-wo"></i></a>
+            <div id = "gouwuche">
+            	<a href = "">
+            		<i class = "iconfont icon-tianmaochaoshigouwuche"></i>
+                	<b>购物车</b>
+            	</a>
+            </div>
+            <div>
+            	<a href = ""><i class = "iconfont icon-wodezichan"></i></a>
+                <a href = ""><i class = "iconfont icon-pinpai"></i></a>
+                <a href = ""><i class = "iconfont icon-shoucang"></i></a>
+                <a href = ""><i class = "iconfont icon-31shijian"></i></a>
+                <a href = ""><i class = "iconfont icon-chongshuidian"></i></a>
+            </div>
+        </div>
+        <div id = "sBarBottom">
+        	<a href = ""><i class = "iconfont icon-erweima"></i></a>
+            <a href = ""><i class = "iconfont icon-diantifanhuidingbu"></i></a>
+        </div>
+    </div>
+	<script src = "main.js"></script>
+</body>
+</html>
