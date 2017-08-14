@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+#header {
+	width: 1190px;
+	height: 90px;
+	margin: 0 auto
+}
+#header a {
+	display: inline-block;
+	margin-top: 30px
+}
+#header a img{
+	height: 27px;
+}
+#content {
+	width: 100%;
+	height: 600px;
+	background-color: #007CFE;
+}
+#cInner {
+	width: 1190px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative
+}
+#signIn {
+	width: 352px;
+	height: 406px;
+	background-color: #FFF;
+	position: absolute;
+	top: 90px;
+	right: 70px
+}
+#signIn form {
+	width: 302px;
+	margin: 42px auto 0 auto
+}
+#signIn form h3 {
+	font-size: 16px;
+	font-family: 'Microsoft YaHei', tahoma, arial, 'Hiragino Sans GB', 宋体, sans-serif;
+	color: #3C3C3C;
+	font-weight: 700
+}
+#signIn form div {
+	width: 300px;
+	height: 40px;
+	margin-top: 26px;
+	border: 1px solid #CBCBCB;
+	position: relative
+}
+#signIn form div i.uHead {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #DDD;
+	text-align: center;
+	float: left
+}
+#signIn form div i.delete {
+	position: absolute;
+	top: 12px;
+	right: 10px;
+	cursor: pointer
+}
+#signIn form div i.keyboard {
+	position: absolute;
+	top: 6px;
+	right: 10px;
+	cursor: pointer
+}
+#signIn form div input {
+	padding-left: 10px;
+	width: 250px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #9B9B9B;
+	font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+	float: left
+}
+#signIn form button {
+	width: 302px;
+	height: 40px;
+	line-height: 40px;
+	color: #FFF;
+	background-color: #FF0036;
+	margin-top: 20px;
+	border-radius: 3px;
+	font-family: 'Microsoft YaHei', tahoma, arial, 'Hiragino Sans GB', 宋体, sans-serif;
+	font-size: 16px;
+	font-weight: bold
+}
+#signIn form button:hover {
+	cursor: pointer;
+	opacity: 0.8
+}
+#vSlider {
+	width: 300px;
+	height: 40px;
+	border: 1px solid #9C9C9C;
+	line-height: 40px;
+	margin-top: 20px;
+	background-color: #E8E8E8;
+	position: relative;
+	text-align: center;
+	font-family: 'Microsoft YaHei', tahoma, arial, 'Hiragino Sans GB', 宋体, sans-serif;
+	font-size: 12px;
+	color: #4D4D4D
+}
+#vSlider:hover {
+	cursor: pointer
+}
+#vSlider #slider {
+	width: 38px;
+	height: 38px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	position: absolute;
+	left: 0	
+}
+#vSlider #slider:hover {
+	cursor: move
+}
+#forget {
+	width: 210px;
+	height: 12px;
+	margin-top: 28px;
+	margin-left: 122px
+}
+#forget a {
+	font-size: 12px;
+	margin: 0 6px;
+	color: #6C6C6C;
+	font-family: 'Microsoft YaHei', tahoma, arial, 'Hiragino Sans GB', 宋体, sans-serif;
+}
+#forget a:hover {
+	color: #FF0036
+}
+#signSwitch {
+	position: absolute;
+	right: 4px;
+	top: 5px;
+	width: 198px;
+	height: 56px
+}
+#signSwitch i.icon-erweima {
+	position: absolute;
+	right: 0;
+	cursor: pointer
+}
+#tip {
+	width: 140px;
+	height: 26px;
+	border: 1px solid #F3D995;
+	background-color: #FEFCEE;
+	position: absolute;
+	top: 6px;
+	right: 54px
+}
+#tip i {
+	display: inline-block;
+	margin: 6px 8px 0 14px;
+	float: left
+}
+#tip span {
+	display: inline-block;
+	font-size: 12px;
+	color: #DF9C1F;
+	font-weight: 400;
+	font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+	margin-top: 5px;
+	float: left
+}
+#tipTriangle {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 8px solid #F3D995;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	border-right: 0px;
+	top: 12px;
+	right: 46px;
+}
+#tTInner {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 8px solid #FEFCEE;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	border-right: 0px;
+	top: -8px;
+	right: 2px;
+}
+
