@@ -1,49 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-/*init*/
-html, body, div, ul, li, p, h1, h2, h3, h4, h5, h6, dl, dt, dd, ol, form, input, textarea, th, td, select {
-	margin: 0;
-	padding: 0
-}
-body {
-	font-family: Helvetica,sans-serif;
-	font-size: 12px;
-	color: #999
-}
-h1,h2,h3,h4,h5,h6 {
-	font-weight:normal
-}
-ul,ol {
-	list-style: none
-}
-li {
-	list-style-type: none
-}
-img {
-	border: none;
-}
-a {
-	text-decoration: none;
-	color: #999
-}
-table {
-	border-collapse: collapse;
-	table-layout: fixed
-}
-input,textarea {
-	outline: none;
-	border: none
-}
-textarea {
-	resize: none;
-	overflow: auto
-}
-.clearfix {
-	zoom: 1
-}
-
-
 /*header*/
 #header {
 	height: 636px;
