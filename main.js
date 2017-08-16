@@ -1,5 +1,9 @@
 // JavaScript Document
 
+//login
+var loginF = false;
+
+
 //hearderDown
 function down() {
 	var $this = $(this);

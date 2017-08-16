@@ -931,7 +931,7 @@ div.clear {
 	display: inline-block
 }
 #beian span.bIcon a {
-	background: url('imgs/beian.png') no-repeat;
+	background: url('imgs/homePage/beian.png') no-repeat;
 	padding-left: 22px;
 	height: 20px;
 	display: inline-block
@@ -944,4 +944,31 @@ div.clear {
 	width: 70px;
 	left: 160px;
 	top: -28px
+}
+
+
+
+/*login*/
+.hNavL #alLogin {
+	font-size: 12px;
+	position: relative
+}
+.hNavL #alLogin span a {
+	margin-left: 0
+}
+.hNavL #alLogin span a.v {
+	position: absolute;
+	top: 3px
+}
+.hNavL #alLogin a.integral {
+	margin-left: 30px
+}
+.hNavL #alLogin a b {
+	color: #666
+}
+.hNavL #alLogin a:hover b {
+	color: #FF0036
+}
+#alLogin {
+	display: none
 }
