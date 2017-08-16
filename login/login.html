@@ -7,6 +7,7 @@
 <link rel = "stylesheet" type = "text/css" href = "../init.css" />
 <link rel = "stylesheet" type = "text/css" href = "login.css" />
 <link rel = "stylesheet" type = "text/css" href = "iconfont/iconfont.css" />
+<script src = "../jquery-3.2.1.min.js"></script>
 </head>
 
 <body>
@@ -15,37 +16,113 @@
     </div>
     <div id = "content">
     	<div id = "cInner">
-        	<a href = "#"><img src = "../imgs/login/lgB.jpg" /></a>
+        	<a href = "#"><img src = "../imgs/login/lgB.jpg" title = "电脑狂欢季"/></a>
             <div id = "signIn">
-            	<div id = "signSwitch">
-                	<div id = "tip">
-                    	<i class = "iconfont icon-weishi"></i><span>扫码登录更安全</span>
+            	<div id = "pLogin">
+                    <div class = "signSwitch">
+                        <div class = "tip">
+                            <i class = "iconfont icon-weishi"></i><span>扫码登录更安全</span>
+                        </div>
+                        <b id = "tipTriangle"><b id = "tTInner"></b></b>
+                        <i class = "iconfont icon-erweima"></i>
                     </div>
-                    <b id = "tipTriangle"><b id = "tTInner"></b></b>
-                    <i class = "iconfont icon-erweima"></i>
-                </div>
-            	<form name = "usePassword" action = "" method = "POST">
-                	<h3>密码登录</h3>
-                    <div id = "userName">
-                    	<i class = "uHead iconfont icon-mine"></i>
-                        <input type = "text" placeholder = "会员名/邮箱/手机号" />
-                        <i class = "delete iconfont icon-chucuo"></i>
+                    <form name = "usePassword" action = "../studyTmall.html" method = "POST">
+                        <h3>密码登录</h3>
+                        <div id = "hint"><i class = "iconfont icon-jianhao"></i><span></span></div>
+                        <div id = "userName">
+                            <i class = "uHead iconfont icon-mine"></i>
+                            <input type = "text" placeholder = "会员名/邮箱/手机号" />
+                            <i class = "delete iconfont icon-chucuo"></i>
+                        </div>
+                        <div id = "userPassw">
+                            <i class = "uHead iconfont icon-31mima"></i>
+                            <input type = "password" />
+                            <i class = "keyboard iconfont icon-jianpan"></i>
+                        </div>
+                        <div id = "vSlider"><span id = "slider" class = "iconfont icon-huakuai"></span><span class = "sText">请按住滑块，拖动到最右边<span></div>
+                        <button type = "submit">登 录</button>
+                    </form>
+                    <div id = "forget">
+                        <a href = "#">忘记密码</a>
+                        <a href = "#">忘记会员名</a>
+                        <a href = "#">免费注册</a>
                     </div>
-                    <div id = "userPassw">
-                    	<i class = "uHead iconfont icon-31mima"></i>
-                        <input type = "password" />
-                        <i class = "keyboard iconfont icon-jianpan"></i>
+            	</div>
+                <div id = "qrLogin">
+                	<div class = "signSwitch">
+                        <div class = "tip qrTip">
+                            <i class = "iconfont icon-weishi"></i><span>密码登录在这里</span>
+                        </div>
+                        <b id = "tipTriangle"><b id = "tTInner"></b></b>
+                        <i class = "iconfont icon-diannao"></i>
                     </div>
-                    <div id = "vSlider"><span id = "slider" class = "iconfont icon-huakuai"></span>请按住滑块，拖动到最右边</div>
-                    <button type = "submit">登 录</button>
-                </form>
-                <div id = "forget">
-                	<a href = "#">忘记密码</a>
-                    <a href = "#">忘记会员名</a>
-                    <a href = "#">免费注册</a>
+                    <div id = "qrCode">
+                    	<h3>手机扫码，安全登录</h3>
+                        <img src = "../imgs/login/qrCode.png" />
+                        <div id = "openPhone">
+                    		<i class = "iconfont icon-saoyisao"></i>
+                            <div>
+                            	<span>打开 <a href = "">手机天猫</a> | <a href = "">手机淘宝</a></span>
+                                <span>扫一扫登陆</span>
+                            </div>
+                    	</div>
+                        <div id = "change">
+                        	<a href = "">密码登录</a>
+                            <a href = "">免费注册</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <div id = "footer">
+        <div id = "aInner">
+            <div id = "list">
+                <a href = "">关于天猫</a>
+                <a href = "">帮助中心</a>
+                <a href = "">开放平台</a>
+                <a href = "">诚聘英才</a>
+                <a href = "">联系我们</a>
+                <a href = "">网站合作</a>
+                <a href = "">法律声明及隐私权政策</a>
+                <a href = "">知识产权</a>
+                <a href = "">廉政举报</a>
+            </div>
+            <div id = "cooperator">
+                <a href = "">阿里巴巴集团</a>
+                <a href = "">淘宝网</a>
+                <a href = "">天猫</a>
+                <a href = "">聚划算</a>
+                <a href = "">全球通速卖</a>
+                <a href = "">阿里巴巴国际交易市场</a>
+                <a href = "">1688</a>
+                <a href = "">阿里妈妈</a>
+                <a href = "">飞猪</a>
+                <a href = "">阿里云计算</a>
+                <a href = "">YunOS</a>
+                <a href = "">阿里通信</a>
+                <a href = "">万网</a>
+                <a href = "">高德</a>
+                <a href = "">UC</a>
+                <a href = "">友盟</a>
+                <a href = "">虾米</a>
+                <a href = "">阿里星球</a>
+                <a href = "">来往</a>
+                <a href = "">钉钉</a>
+                <a href = "">支付宝</a>
+            </div>
+            <div id = "license">
+                <span>增值电信业务经营许可证：<a href = "">浙B2-20110446</a></span>
+                <span>网络文化经营许可证：<a href = "">浙网文[2015]0295-065号</a></span>
+                <span><a href = "">12318举报</a></span>
+            </div>
+            <div id = "beian">
+                <span>互联网药品信息服务资质证书编号：<a href = "">浙-(经营性)-2017-0005</a></span>
+                <span class = "bIcon"><a href = "">浙公网安备 33010002000120号</a></span>
+            </div>
+            <span>&copy;2013-2017 TMALL.COM 版权所有</span>
+        </div>
+	</div>
+    <script src = "login.js"></script>
 </body>
 </html>

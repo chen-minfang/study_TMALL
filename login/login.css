@@ -23,6 +23,9 @@
 	margin: 0 auto;
 	position: relative
 }
+#pLogin {
+	display: none
+}
 #signIn {
 	width: 352px;
 	height: 406px;
@@ -61,13 +64,15 @@
 	position: absolute;
 	top: 12px;
 	right: 10px;
-	cursor: pointer
+	cursor: pointer;
+	display: none
 }
 #signIn form div i.keyboard {
 	position: absolute;
 	top: 6px;
 	right: 10px;
-	cursor: pointer
+	cursor: pointer;
+	display: none
 }
 #signIn form div input {
 	padding-left: 10px;
@@ -106,7 +111,8 @@
 	text-align: center;
 	font-family: 'Microsoft YaHei', tahoma, arial, 'Hiragino Sans GB', 宋体, sans-serif;
 	font-size: 12px;
-	color: #4D4D4D
+	color: #4D4D4D;
+	display: none
 }
 #vSlider:hover {
 	cursor: pointer
@@ -137,19 +143,23 @@
 #forget a:hover {
 	color: #FF0036
 }
-#signSwitch {
+.signSwitch {
 	position: absolute;
 	right: 4px;
 	top: 5px;
 	width: 198px;
 	height: 56px
 }
-#signSwitch i.icon-erweima {
+.signSwitch i.icon-erweima, .signSwitch i.icon-diannao {
 	position: absolute;
 	right: 0;
 	cursor: pointer
 }
-#tip {
+.signSwitch i.icon-diannao {
+	top: 5px;
+	right: 2px
+}
+.tip {
 	width: 140px;
 	height: 26px;
 	border: 1px solid #F3D995;
@@ -158,12 +168,15 @@
 	top: 6px;
 	right: 54px
 }
-#tip i {
+.qrTip {
+	top: 0
+}
+.tip i {
 	display: inline-block;
 	margin: 6px 8px 0 14px;
 	float: left
 }
-#tip span {
+.tip span {
 	display: inline-block;
 	font-size: 12px;
 	color: #DF9C1F;
@@ -194,4 +207,136 @@
 	top: -8px;
 	right: 2px;
 }
+#qrCode {
+	width: 302px;
+	margin: 38px auto 0 auto
+}
+#qrCode h3 {
+	font-size: 16px;
+	font-family: 'Microsoft YaHei', tahoma, arial, 'Hiragino Sans GB', 宋体, sans-serif;
+	color: #3C3C3C;
+	font-weight: 700
+}
+#qrCode img {
+	display: block;
+	margin: 24px auto
+}
+#openPhone {
+	width: 184px;
+	height: 38px;
+	margin: 0 auto
+}
+#openPhone div {
+	display: inline-block;
+	width: 140px;
+	margin-left: 8px;
+}
+#openPhone div span {
+	font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+	color: #9C9C9C;
+}
+#openPhone div span a {
+	color: #FF0036
+}
+#change {
+	width: 126px;
+	height: 12px;
+	margin-top: 28px;
+	margin-left: 164px
+}
+#change a {
+	font-size: 12px;
+	margin: 0 6px;
+	color: #6C6C6C;
+	font-family: 'Microsoft YaHei', tahoma, arial, 'Hiragino Sans GB', 宋体, sans-serif;
+}
+#change a:hover {
+	color: #FF0036
+}
 
+#footer {
+	width: 100%;
+	height: 196px;
+	position: relative;
+	color: #000;
+	margin-top: 44px
+}
+#aInner {
+	width: 1190px;
+	margin: 0 auto
+}
+#list, #cooperator {
+	height: 34px;
+	line-height: 34px
+}
+#list a {
+	font-size: 12px;
+	margin-right: 5px;
+	color: #000
+}
+#cooperator a {
+	font-size: 12px;
+	line-height: 12px;
+	display: inline-block;
+	height: 11px;
+	padding-right: 5px;
+	border-right: 1px solid #FFF;
+	color: #000
+}
+#license, #beian {
+	height: 12px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	font-family: Helvetica,sans-serif;
+	color: #666
+}
+#license span, #beian span {
+	margin-right: 70px
+}
+#beian {
+	height: 20px;
+	margin-bottom: 2px;
+}
+#beian span {
+	height: 100%;
+	line-height: 20px;
+	display: inline-block
+}
+#beian span.bIcon a {
+	background: url('../imgs/homePage/beian.png') no-repeat;
+	padding-left: 22px;
+	height: 20px;
+	display: inline-block
+}
+#aInner > span {
+	color: #686868
+}
+#footer #aInner > img {
+	position: absolute;
+	width: 70px;
+	left: 160px;
+	top: -28px
+}
+#signIn form div#hint {
+	border: 0;
+	background-color: #FEF2F2;
+	margin-top: 0;
+	height: auto;
+	padding: 5px 0;
+	display: none;
+}
+#signIn form div#hint i {
+	margin: 0 10px;
+	display: inline-block;
+	float: left
+}
+#signIn form div#hint span {
+	font-family: 'Microsoft YaHei', tahoma, arial, 'Hiragino Sans GB', 宋体, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	display: inline-block;
+	width: 242px;
+}
+#signIn form div#hint span a {
+	color: #FF0036	
+}
